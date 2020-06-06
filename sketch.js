@@ -52,6 +52,7 @@ function setup() {
 
 function draw() {
   background("white");  
+  Engine.update(engine);
  ground.display();
  ground2.display();
  ground3.display();
